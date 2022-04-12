@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Lab 2</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar-fixed">
+            <h1>AJAX Practice</h1>
+            <ul>
+                <li><a href="index.html">Weather</a></li>
+                <li><a href="stackoverflow.html">StackOverflow</a></li>
+                <li><a class="current" href="mathfacts.html">MathFacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="content">
+        <h1>Math Facts!</h1>
+        <p>Provide a number to view a fact about that number.</p>
+        <p>Highlight text and click 'Look Up Selected Text' to learn more about unfamiliar terms.</p>
+        <form>
+            <label>Provide an integer number</label>
+            <input id="MFInput" type="text" /><br/>
+            <input id="MFSubmit" type="submit" value="Get Fact"></input>
+            <input id="MFRandom" type="submit" value="Get Random Fact"></input>
+            <input id="MFClearFacts" type="submit" value="ClearFacts"></input>
+            <input id="LookupText" type="submit" value="Look Up Selected Text"></input>
+        </form>
+        <div id="MFResults">
+            <div>Enter a number first!</div>
+        </div>
+    </div>
+    <!-- End Content -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script text="type/javascript" src="./script.js"></script>
+    <footer>
+        <p>
+            <a href="https://github.com/jacksonbaxter/CS260CreativeProject2" target="_blank">GitRepo</a>
+        </p>
+        <hr width="50%" color="#fbf7f5" />
+    </footer>
+</body>
+
+</html>
